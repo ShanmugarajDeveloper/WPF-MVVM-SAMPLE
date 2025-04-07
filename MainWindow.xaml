@@ -11,7 +11,7 @@
     </Window.DataContext>
     
     <Grid>
-        <TextBox Margin="200 0 0 0" Height="20" Width="50" Text="{Binding TextName,UpdateSourceTrigger=PropertyChanged}">
+        <TextBox Background="{StaticResource PrimaryColor}" Margin="200 0 0 0" Height="20" Width="50" Text="{Binding TextName,UpdateSourceTrigger=PropertyChanged}">
             <TextBox.Style>
                 <Style TargetType="TextBox">
                     <Style.Triggers>
